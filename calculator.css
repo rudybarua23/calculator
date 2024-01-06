@@ -1,0 +1,24 @@
+#calculator-display {
+    width: 100%;        /* Full width of the container */
+    height: 50px;       /* Adequate height for visibility */
+    font-size: 20px;    /* Large enough font for easy reading */
+    text-align: right;  /* Align the text to the right */
+    margin-bottom: 10px;/* Space between display and buttons */
+    padding: 5px;       /* Padding inside the display */
+    border: 1px solid #cccccc; /* Border for the display */
+    box-sizing: border-box; /* To include padding and border in the width */
+}
+
+#calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
+    grid-gap: 5px;  /* Space between grid items */
+}
+
+#calculator-buttons button {
+    width: 100%;       /* Full width of the grid column */
+    height: 40px;      /* Adequate height for buttons */
+    font-size: 16px;   /* Font size for button text */
+    margin: 2px 0;     /* Margin for spacing */
+    cursor: pointer;   /* Cursor pointer on hover */
+}
